@@ -41,7 +41,7 @@ public class CustomerRegistration extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("ITF Devanagari Marathi", 0, 24)); // NOI18N
-        jLabel1.setText("Customer Registration");
+        jLabel1.setText("Create Customer Account");
 
         jLabel2.setFont(new java.awt.Font("ITF Devanagari Marathi", 0, 16)); // NOI18N
         jLabel2.setText("User ID:");
@@ -55,7 +55,7 @@ public class CustomerRegistration extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("ITF Devanagari Marathi", 0, 16)); // NOI18N
         jLabel5.setText("Password:");
 
-        jButton1.setText("Save");
+        jButton1.setText("Register");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

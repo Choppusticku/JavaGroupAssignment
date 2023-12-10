@@ -63,7 +63,7 @@ public class CustomerTransactions extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("ITF Devanagari Marathi", 0, 24)); // NOI18N
-        jLabel1.setText("Transactions");
+        jLabel1.setText("Transaction History");
 
         table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
