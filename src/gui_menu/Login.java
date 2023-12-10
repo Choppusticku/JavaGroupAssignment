@@ -147,7 +147,7 @@ public class Login extends javax.swing.JFrame {
                 case 3:
                     DeliveryRunner deliveryRunner = DeliveryRunnerDatabase.login(username.getText(), password.getText());
                     if (deliveryRunner == null) {
-                        JOptionPane.showMessageDialog(null, "Invalid Credentials");
+                        JOptionPane.showMessageDialog(null, "Invalid");
                     } else {
                         this.dispose();
                         new DeliveryDashboard(deliveryRunner).setVisible(true);
