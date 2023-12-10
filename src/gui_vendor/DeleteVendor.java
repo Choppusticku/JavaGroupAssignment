@@ -4,7 +4,7 @@ import filehandling.VendorDatabase;
 import gui_menu.AdminDashboard;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.Vendor;
+import classes.Vendor;
 
 public class DeleteVendor extends javax.swing.JFrame {
 

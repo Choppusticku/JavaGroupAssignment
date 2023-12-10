@@ -3,7 +3,7 @@ package gui_runner;
 import filehandling.DeliveryRunnerDatabase;
 import gui_menu.AdminDashboard;
 import javax.swing.table.DefaultTableModel;
-import model.DeliveryRunner;
+import classes.DeliveryRunner;
 
 public class DisplayRunners extends javax.swing.JFrame {
 

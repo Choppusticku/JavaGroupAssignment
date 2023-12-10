@@ -4,7 +4,7 @@ import filehandling.DeliveryRunnerDatabase;
 import gui_menu.AdminDashboard;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.DeliveryRunner;
+import classes.DeliveryRunner;
 
 
 public class DeleteRunner extends javax.swing.JFrame {
@@ -81,7 +81,7 @@ public class DeleteRunner extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("ITF Devanagari Marathi", 0, 14)); // NOI18N
-        jLabel2.setText("Please select runner from following to delete");
+        jLabel2.setText("Select runner to delete");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

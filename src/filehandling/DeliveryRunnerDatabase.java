@@ -13,9 +13,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import model.DeliveryRunner;
-import model.Order;
-import model.UserType;
+import classes.DeliveryRunner;
+import classes.Order;
+import classes.UserType;
 
 public class DeliveryRunnerDatabase {
 

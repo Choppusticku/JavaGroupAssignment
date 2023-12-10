@@ -3,7 +3,7 @@ package gui_customer;
 import filehandling.CustomerDatabase;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.Customer;
+import classes.Customer;
 
 
 public class TopUpCustomer extends javax.swing.JFrame {
@@ -152,7 +152,8 @@ public class TopUpCustomer extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-       
+        this.dispose();
+        new CustomerMenu(customer).setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

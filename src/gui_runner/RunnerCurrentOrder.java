@@ -5,11 +5,11 @@ import filehandling.OrderDatabase;
 import filehandling.VendorDatabase;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.DeliveryRunner;
-import model.MenuItem;
-import model.Order;
-import model.OrderStatus;
-import model.Vendor;
+import classes.DeliveryRunner;
+import classes.MenuItem;
+import classes.Order;
+import classes.OrderStatus;
+import classes.Vendor;
 
 public class RunnerCurrentOrder extends javax.swing.JFrame {
 

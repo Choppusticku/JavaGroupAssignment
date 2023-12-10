@@ -5,9 +5,9 @@ import filehandling.OrderDatabase;
 import filehandling.VendorDatabase;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.Order;
-import model.OrderStatus;
-import model.Vendor;
+import classes.Order;
+import classes.OrderStatus;
+import classes.Vendor;
 
 public class UpdateOrderStatus extends javax.swing.JFrame {
 

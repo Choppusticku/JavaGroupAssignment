@@ -10,11 +10,11 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import model.Customer;
-import model.MenuItem;
-import model.Order;
-import model.OrderStatus;
-import model.Vendor;
+import classes.Customer;
+import classes.MenuItem;
+import classes.Order;
+import classes.OrderStatus;
+import classes.Vendor;
 
 public class OrderDatabase {
 

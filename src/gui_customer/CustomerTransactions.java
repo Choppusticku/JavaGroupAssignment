@@ -6,12 +6,12 @@ import filehandling.OrderDatabase;
 import filehandling.VendorDatabase;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.Customer;
-import model.DeliveryRunner;
-import model.MenuItem;
-import model.Order;
-import model.OrderStatus;
-import model.Vendor;
+import classes.Customer;
+import classes.DeliveryRunner;
+import classes.MenuItem;
+import classes.Order;
+import classes.OrderStatus;
+import classes.Vendor;
 
 public class CustomerTransactions extends javax.swing.JFrame {
 
@@ -130,7 +130,7 @@ public class CustomerTransactions extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         this.dispose();
-        new CustomerDashboard(customer).setVisible(true);
+        new CustomerMenu(customer).setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void tableMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tableMouseClicked

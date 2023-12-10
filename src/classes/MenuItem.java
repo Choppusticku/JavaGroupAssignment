@@ -1,4 +1,4 @@
-package model;
+package classes;
 
 public class MenuItem {
     private String itemName;

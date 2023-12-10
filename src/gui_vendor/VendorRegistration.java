@@ -4,10 +4,10 @@ import filehandling.VendorDatabase;
 import gui_menu.AdminDashboard;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import model.Menu;
-import model.MenuItem;
-import model.UserType;
-import model.Vendor;
+import classes.Menu;
+import classes.MenuItem;
+import classes.UserType;
+import classes.Vendor;
 
 
 public class VendorRegistration extends javax.swing.JFrame {
