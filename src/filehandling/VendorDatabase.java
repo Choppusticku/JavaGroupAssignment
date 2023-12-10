@@ -7,10 +7,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import model.Menu;
-import model.MenuItem;
-import model.UserType;
-import model.Vendor;
+import classes.Menu;
+import classes.MenuItem;
+import classes.UserType;
+import classes.Vendor;
 
 public class VendorDatabase {
 

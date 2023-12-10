@@ -3,7 +3,7 @@ package gui_customer;
 import filehandling.CustomerDatabase;
 import gui_menu.AdminDashboard;
 import javax.swing.table.DefaultTableModel;
-import model.Customer;
+import classes.Customer;
 
 
 public class DisplayCustomers extends javax.swing.JFrame {

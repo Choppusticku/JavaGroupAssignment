@@ -4,7 +4,7 @@ import filehandling.CustomerDatabase;
 import gui_menu.AdminDashboard;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.Customer;
+import classes.Customer;
 
 public class DeleteCustomer extends javax.swing.JFrame {
 

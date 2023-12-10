@@ -1,16 +1,16 @@
 package gui_customer;
 
 import gui_menu.Login;
-import model.Customer;
+import classes.Customer;
 
 
-public class CustomerDashboard extends javax.swing.JFrame {
+public class CustomerMenu extends javax.swing.JFrame {
 
     Customer customer;
-    public CustomerDashboard() {
+    public CustomerMenu() {
         initComponents();
     }
-    public CustomerDashboard(Customer customer) {
+    public CustomerMenu(Customer customer) {
         initComponents();
         this.customer = customer;
     }
@@ -157,20 +157,21 @@ public class CustomerDashboard extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(CustomerDashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CustomerMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(CustomerDashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CustomerMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(CustomerDashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CustomerMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(CustomerDashboard.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CustomerMenu.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CustomerDashboard().setVisible(true);
+                new CustomerMenu().setVisible(true);
             }
         });
     }

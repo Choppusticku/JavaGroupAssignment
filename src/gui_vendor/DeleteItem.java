@@ -4,8 +4,8 @@ import filehandling.VendorDatabase;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.MenuItem;
-import model.Vendor;
+import classes.MenuItem;
+import classes.Vendor;
 
 public class DeleteItem extends javax.swing.JFrame {
 

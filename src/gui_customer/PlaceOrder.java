@@ -6,11 +6,11 @@ import java.util.ArrayList;
 import java.util.Random;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-import model.Customer;
-import model.MenuItem;
-import model.Order;
-import model.OrderStatus;
-import model.Vendor;
+import classes.Customer;
+import classes.MenuItem;
+import classes.Order;
+import classes.OrderStatus;
+import classes.Vendor;
 
 public class PlaceOrder extends javax.swing.JFrame {
 
@@ -163,6 +163,11 @@ public class PlaceOrder extends javax.swing.JFrame {
         });
 
         jButton3.setText("Cancel");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
 
         jLabel7.setText("SubTotal");
 
@@ -286,7 +291,6 @@ public class PlaceOrder extends javax.swing.JFrame {
                 cartDetail.append("Name:" + menuItem.getItemName() + "\tPrice:" + menuItem.getPrice() + "\tQuantity:\t" + quantity.getText());
                 quantity.setText("");
                 menuTable.clearSelection();
-
             }
         }
 
@@ -307,12 +311,17 @@ public class PlaceOrder extends javax.swing.JFrame {
                     OrderDatabase.addOrderToTxt(order);
                     JOptionPane.showMessageDialog(null, "Order Request sent");
                     this.dispose();
-                    new CustomerDashboard(customer).setVisible(true);
+                    new CustomerMenu(customer).setVisible(true);
                 }
 
             }
         }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        this.dispose();
+        new CustomerMenu(customer).setVisible(true);
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     public String generateRandomId() {
         Random random = new Random();

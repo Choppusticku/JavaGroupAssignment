@@ -4,9 +4,9 @@ import filehandling.CustomerDatabase;
 import gui_menu.AdminDashboard;
 import java.util.ArrayList;
 import javax.swing.JOptionPane;
-import model.Customer;
-import model.Order;
-import model.UserType;
+import classes.Customer;
+import classes.Order;
+import classes.UserType;
 
 
 public class CustomerRegistration extends javax.swing.JFrame {

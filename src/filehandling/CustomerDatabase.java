@@ -7,9 +7,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
-import model.Customer;
-import model.Order;
-import model.UserType;
+import classes.Customer;
+import classes.Order;
+import classes.UserType;
 
 public class CustomerDatabase {
 

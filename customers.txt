@@ -1,1 +1,3 @@
 C01,Common Ricardo L,kontol,ricardol@gmail.com,CUSTOMER,100.0,[],
+C02,Caocibe,123,caocibe@gmail.com,CUSTOMER,100.0,[],
+C03,Kontol,123,kontol@gmail.com,CUSTOMER,100.0,[],

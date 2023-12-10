@@ -1,7 +1,7 @@
 package gui_vendor;
 
 import filehandling.VendorDatabase;
-import model.Vendor;
+import classes.Vendor;
 
 public class VendorEarnings extends javax.swing.JFrame {
     

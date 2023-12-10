@@ -3,7 +3,7 @@ package gui_vendor;
 import filehandling.VendorDatabase;
 import gui_menu.AdminDashboard;
 import javax.swing.table.DefaultTableModel;
-import model.Vendor;
+import classes.Vendor;
 
 
 public class DisplayVendors extends javax.swing.JFrame {

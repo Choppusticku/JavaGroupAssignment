@@ -1,7 +1,7 @@
 package gui_vendor;
 
 import gui_menu.Login;
-import model.Vendor;
+import classes.Vendor;
 
 public class VendorDashboard extends javax.swing.JFrame {
 
